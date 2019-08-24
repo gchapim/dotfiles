@@ -15,6 +15,8 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
+alias glu='git ls-files --others --exclude-standard'
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/gustavo/google-cloud-sdk/path.bash.inc' ]; then . '/Users/gustavo/google-cloud-sdk/path.zsh.inc'; fi
 
